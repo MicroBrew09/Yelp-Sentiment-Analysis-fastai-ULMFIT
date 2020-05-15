@@ -1,0 +1,49 @@
+(base) amahadev@asb10928u-c05:~$ time python /home/amahadev/Documents/cmpt732/project/final_files/ULMFIT_model_train.py /home/amahadev/Documents/cmpt732/project/service_label_data_yelp.csv
+epoch     train_loss  valid_loss  accuracy  time    
+0         7.813740    6.861427    0.086607  00:04                    
+1         7.260771    6.358248    0.117634  00:04                    
+2         6.833686    6.255661    0.121057  00:04                    
+3         6.511025    6.227722    0.120610  00:04                    
+4         6.284130    6.224558    0.117560  00:04                    
+/home/amahadev/.local/lib/python3.7/site-packages/fastai/sixel.py:16: UserWarning: You could see this plot with `libsixel`. See https://github.com/saitoha/libsixel
+  warn("You could see this plot with `libsixel`. See https://github.com/saitoha/libsixel")
+<IPython.core.display.HTML object>
+epoch     train_loss  valid_loss  accuracy  time    
+0         1.235428    #na#        00:02                              
+1         1.227463    #na#        00:03                              
+2         1.431957    #na#        00:02                              
+3         6.770463    #na#        00:00                           
+LR Finder is complete, type {learner_name}.recorder.plot() to see the graph.
+epoch     train_loss  valid_loss  accuracy  time    
+0         1.101674    0.996952    0.528889  00:03                     
+1         0.965714    0.929498    0.582222  00:04                     
+2         0.870383    0.893785    0.604444  00:03                     
+3         0.778225    1.002950    0.560000  00:03                     
+4         0.715074    0.874594    0.595556  00:03                     
+5         0.657964    0.866183    0.608889  00:03                     
+6         0.601113    0.939425    0.591111  00:03                     
+7         0.560278    0.922415    0.608889  00:03                     
+8         0.492497    0.906539    0.608889  00:03                     
+9         0.452234    0.911149    0.595556  00:03                      
+epoch     train_loss  valid_loss  accuracy  time    
+0         0.392736    0.915301    0.635556  00:03                    
+epoch     train_loss  valid_loss  accuracy  time    
+0         0.715590    1.164356    0.546667  00:04                    
+epoch     train_loss  valid_loss  accuracy  time    
+0         0.500721    0.993483    0.591111  00:06                    
+epoch     train_loss  valid_loss  accuracy  time    
+0         0.429077    0.878715    0.582222  00:08                    
+1         0.383959    0.888884    0.595556  00:08                    
+2         0.316362    0.892093    0.604444  00:08                    
+3         0.293890    0.901604    0.591111  00:08                    
+<IPython.core.display.HTML object>
+col_0   0   1   2                                
+row_0            
+0      54  38  10
+1      23  62  11
+2       3   7  17
+col_0         0         1         2
+row_0                              
+0      0.529412  0.372549  0.098039
+1      0.239583  0.645833  0.114583
+2      0.111111  0.259259  0.629630

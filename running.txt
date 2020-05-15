@@ -1,0 +1,15 @@
+In order to render our HTML dashboard, use the following commands (for two different restaurants):
+
+${SPARK_HOME}/bin/spark-submit yelp_vis.py "The Passenger"
+
+${SPARK_HOME}/bin/spark-submit yelp_vis.py "The Works Gourmet Burger Bistro"
+
+This will create an HTML file which will be visible in the browser at "./yelp_vis_temp.html"
+
+Cassandra key space: amahadev
+Table names: 'yelp_business_combined', 'review_sample'
+
+SELECT * FROM yelp_business_combined WHERE name = 'The Passenger'
+SELECT * FROM review_sample WHERE name = 'The Passenger'
+
+
